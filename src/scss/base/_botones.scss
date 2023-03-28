@@ -1,0 +1,12 @@
+.boton-amarillo{
+    @include boton($amarillo, block);
+}
+.boton-amarillo-inbl{
+    @include boton($amarillo, inline-block);
+    align-items: flex-start;
+    text-align: center;
+    max-width: 14rem;
+}
+.boton-verde{
+    @include boton($verde, inline-block);
+}
